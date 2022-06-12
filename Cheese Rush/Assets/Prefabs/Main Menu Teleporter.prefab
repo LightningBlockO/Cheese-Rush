@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4795943176483000528}
   - component: {fileID: 4795943176483000529}
   - component: {fileID: 4795943176483000533}
+  - component: {fileID: 6741218463842773818}
   m_Layer: 0
   m_Name: Main Menu Teleporter
   m_TagString: Untagged
@@ -63,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3c9a8c894aa569540ae59724aa06371c, type: 2}
+  - {fileID: 2100000, guid: d503bd85a6f6d9842bbe57178b03b95d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,3 +111,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf53d5bea949f274a98bca1204b603d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6741218463842773818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4795943176483000530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d552efbbfea2054db63564195e3f7a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotation: {x: 0, y: -45, z: 0}
+  speed: 5

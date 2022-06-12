@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2967672884510893890}
   - component: {fileID: 2967672884510893889}
   - component: {fileID: 2967672884510893888}
+  - component: {fileID: 3460401908637354544}
   m_Layer: 0
   m_Name: Quit Cube
   m_TagString: Untagged
@@ -63,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 29485b8f7f2087b41bca480e9af0b40c, type: 2}
+  - {fileID: 2100000, guid: fe78b8ad400a56744b9dbcc1d4224c9d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -110,3 +111,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8ad5cd63da91d54d844778909d32efd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3460401908637354544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2967672884510893903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d552efbbfea2054db63564195e3f7a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotation: {x: 0, y: -45, z: 0}
+  speed: 5
