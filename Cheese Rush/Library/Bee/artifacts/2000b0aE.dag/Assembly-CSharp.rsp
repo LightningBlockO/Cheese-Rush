@@ -328,6 +328,8 @@
 "Assets/Downloaded Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
 "Assets/Scripts/CheeseCollect.cs"
 "Assets/Scripts/GameController.cs"
+"Assets/Scripts/GTB.cs"
+"Assets/Scripts/GTR.cs"
 "Assets/Scripts/QuitCheeseRush.cs"
 "Assets/Scripts/Rotate.cs"
 "Assets/Scripts/SceneChanger.cs"

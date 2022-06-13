@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnCheese", 0f, 0.20f);
+        InvokeRepeating("SpawnCheese", 0f, 0.35f);
     }
 
     // Update is called once per frame

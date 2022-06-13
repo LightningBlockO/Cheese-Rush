@@ -64,6 +64,8 @@
     <Compile Include="Assets\Scripts\QuitCheeseRush.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
+    <Compile Include="Assets\Scripts\GTB.cs" />
+    <Compile Include="Assets\Scripts\GTR.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

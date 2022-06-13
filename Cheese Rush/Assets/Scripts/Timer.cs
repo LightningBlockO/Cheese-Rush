@@ -23,7 +23,7 @@ public class Timer : MonoBehaviour
         if (other.name.Equals("BlueC"))
         {
             timerRunning = true;
-            timeRemaining += 1;
+            timeRemaining += 2;
             Debug.Log("Hit");
             Destroy(other.gameObject);
         }
