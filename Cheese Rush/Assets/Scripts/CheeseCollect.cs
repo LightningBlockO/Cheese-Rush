@@ -21,14 +21,14 @@ public class CheeseCollect : MonoBehaviour
             gameObject.GetComponent<AudioSource>().Play();
             Destroy(other.gameObject);
         }
-        if (other.name.Contains("BlueC"))
+        if (other.name.Contains("Blue Cheese"))
         {
             score += 50;
-            tM.timeRemaining += 2;
+            tM.timeRemaining += 1;
             gameObject.GetComponent<AudioSource>().Play();
             Destroy(other.gameObject);
         }
-        if (other.name.Contains("RedC"))
+        if (other.name.Contains("Red Cheese"))
         {
             score += 250;
             gameObject.GetComponent<AudioSource>().Play();
