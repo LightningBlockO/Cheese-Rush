@@ -141,7 +141,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3c9a8c894aa569540ae59724aa06371c, type: 2}
+  - {fileID: 2100000, guid: 8b6d70dc3b816344b81be51a666fb222, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 1687404462017471594}
-  fov: 60
+  fov: 90
   invertCamera: 0
   cameraCanMove: 1
   mouseSensitivity: 2
@@ -229,7 +229,7 @@ MonoBehaviour:
   sprintSpeed: 7
   sprintDuration: 5
   sprintCooldown: 0.5
-  sprintFOV: 80
+  sprintFOV: 90
   sprintFOVStepTime: 10
   useSprintBar: 1
   hideBarWhenFull: 1
