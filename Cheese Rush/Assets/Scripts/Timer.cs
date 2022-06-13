@@ -17,6 +17,17 @@ public class Timer : MonoBehaviour
     {
         DoTimer();
     }
+    //Adds one second to time on collision
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.name.Equals("BlueC"))
+        {
+            timerRunning = true;
+            timeRemaining += 1;
+            Debug.Log("Hit");
+            Destroy(other.gameObject);
+        }
+    }
 
     public void DisplayTimer(float timeToDisplay)
     {
@@ -25,6 +36,8 @@ public class Timer : MonoBehaviour
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
+
+    
 
     public void DoTimer()
     {
