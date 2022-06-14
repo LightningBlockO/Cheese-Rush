@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CheeseCollect.cs" />
     <Compile Include="Assets\Scripts\Rotate.cs" />
+    <Compile Include="Assets\Scripts\Unused Scripts\AudioFix.cs" />
     <Compile Include="Assets\Scripts\StartCheeseRush.cs" />
     <Compile Include="Assets\Downloaded Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
     <Compile Include="Assets\Scripts\RedCheeseSpawner.cs" />
@@ -66,7 +67,6 @@
     <Compile Include="Assets\Scripts\BlueCheeseSpawner.cs" />
     <Compile Include="Assets\Scripts\CheeseSpawner.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
-    <Compile Include="Assets\Scripts\AudioFix.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
