@@ -22,7 +22,7 @@ public class RedCheeseSpawner : MonoBehaviour
         {
             redCheese.SetActive(false);
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             redCheese.SetActive(true);
         }

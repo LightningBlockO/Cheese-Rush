@@ -21,7 +21,7 @@ public class Timer : MonoBehaviour
         {
             timerRunning = false;
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             timerRunning = true;
 
