@@ -18,7 +18,14 @@ public class RedCheeseSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            redCheese.SetActive(false);
+        }
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            redCheese.SetActive(true);
+        }
     }
 
     void SpawnCheese()

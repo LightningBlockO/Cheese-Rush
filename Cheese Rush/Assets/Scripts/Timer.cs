@@ -16,6 +16,16 @@ public class Timer : MonoBehaviour
     void Update()
     {
         DoTimer();
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            timerRunning = false;
+        }
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            timerRunning = true;
+
+        }
     }
     //Adds one second to time on collision
     private void OnTriggerEnter(Collider other)
