@@ -366,6 +366,7 @@ UnityEngine.Object::get_hideFlags
 UnityEngine.Object::FindObjectFromInstanceID
 UnityEngine.Object::Internal_CloneSingle
 UnityEngine.Object::Internal_InstantiateSingle_Injected
+UnityEngine.Object::FindObjectsOfType
 UnityEngine.ObjectGUIState::Internal_Create
 UnityEngine.ObjectGUIState::Internal_Destroy
 UnityEngine.Physics::get_defaultPhysicsScene_Injected
@@ -562,6 +563,7 @@ UnityEngine.Transform::get_worldToLocalMatrix_Injected
 UnityEngine.Transform::set_localPosition_Injected
 UnityEngine.Transform::set_localRotation_Injected
 UnityEngine.Transform::set_localScale_Injected
+UnityEngine.Transform::set_rotation_Injected
 UnityEngine.Transform::GetChild
 UnityEngine.Transform::GetParent
 UnityEngine.U2D.SpriteAtlas::CanBindTo
