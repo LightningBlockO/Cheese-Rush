@@ -14,7 +14,6 @@ public class CheeseCollect : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
         if (other.name.Contains("Cheese"))
         {
             score += 25;
@@ -23,14 +22,14 @@ public class CheeseCollect : MonoBehaviour
         }
         if (other.name.Contains("Blue Cheese"))
         {
-            score += 50;
+            score += 25;
             tM.timeRemaining += 1;
             gameObject.GetComponent<AudioSource>().Play();
             Destroy(other.gameObject);
         }
         if (other.name.Contains("Red Cheese"))
         {
-            score += 150;
+            score += 125;
             gameObject.GetComponent<AudioSource>().Play();
             Destroy(other.gameObject);
         }
@@ -38,10 +37,6 @@ public class CheeseCollect : MonoBehaviour
         {
             SceneManager.LoadScene("Win Screen");
         }
-    }
-    void Update()
-    {
         myScore.text = score.ToString();
     }
-
 }

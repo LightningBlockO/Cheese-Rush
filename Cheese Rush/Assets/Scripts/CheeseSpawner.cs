@@ -9,25 +9,10 @@ public class CheeseSpawner : MonoBehaviour
     public float maxX;
     public float maxZ;
 
-    // Start is called before the first frame update
     void Start()
     {
         InvokeRepeating("SpawnCheese", 0f, 0.35f);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            cheese.SetActive(false);
-        }
-        if (Input.GetKeyDown(KeyCode.LeftControl))
-        {
-            cheese.SetActive(true);
-        }
-    }
-
     void SpawnCheese()
     {
         float randomX = Random.Range(-maxX,maxX);

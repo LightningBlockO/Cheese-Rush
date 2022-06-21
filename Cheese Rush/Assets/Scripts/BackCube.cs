@@ -7,6 +7,6 @@ public class BackCube : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("Cheese Rush");
     }
 }

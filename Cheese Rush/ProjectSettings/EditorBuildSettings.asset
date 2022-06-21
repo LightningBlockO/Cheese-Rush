@@ -6,18 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main Menu.unity
+    path: Assets/Scenes/Menus/Main Menu.unity
     guid: aee958ed005e88343897a72f3005bbdb
   - enabled: 1
-    path: Assets/Scenes/Game Select.unity
+    path: Assets/Scenes/Menus/Game Select.unity
     guid: 496c8587eea1f1248bf653f31bcbfcdf
   - enabled: 1
-    path: Assets/Scenes/Cheese Rush.unity
+    path: Assets/Scenes/Levels/Cheese Rush.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Lose Screen.unity
+    path: Assets/Scenes/Levels/Lose Screen.unity
     guid: 3f835583974a95946803bb1dac8576d8
   - enabled: 1
-    path: Assets/Scenes/Win Screen.unity
+    path: Assets/Scenes/Levels/Win Screen.unity
     guid: c4f86c1a7b80d0645b09fcd42232b756
+  - enabled: 1
+    path: Assets/Scenes/Levels/Win Screen Level 1.unity
+    guid: 70e3385ad23b72d4b8b1cc849be755f8
+  - enabled: 1
+    path: Assets/Scenes/Levels/Win Screen Level 2.unity
+    guid: 8634915c52a658a498a5cb61d905f005
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 1.unity
+    guid: 907853146e6030940930c5b7628b399d
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 2.unity
+    guid: 9e8aee586a179df498a6a8331b4245f1
   m_configObjects: {}
