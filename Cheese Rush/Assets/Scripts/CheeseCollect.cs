@@ -14,7 +14,7 @@ public class CheeseCollect : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        myScore.text = score.ToString();
+        
         if (other.name.Contains("Cheese"))
         {
             score += 25;
@@ -39,4 +39,9 @@ public class CheeseCollect : MonoBehaviour
             SceneManager.LoadScene("Win Screen");
         }
     }
+    void Update()
+    {
+        myScore.text = score.ToString();
+    }
+
 }

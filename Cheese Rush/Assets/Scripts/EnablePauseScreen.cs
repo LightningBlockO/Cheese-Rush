@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class EnablePauseScreen : MonoBehaviour
 {
     public GameObject pauseScreen;
+   
     // Start is called before the first frame update
     void Start()
     {
@@ -15,13 +16,18 @@ public class EnablePauseScreen : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             pauseScreen.SetActive(true);
+            Time.timeScale = 0;
+
+            
         }
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             pauseScreen.SetActive(false);
+            Time.timeScale = 1;
         }
+
     }
 }

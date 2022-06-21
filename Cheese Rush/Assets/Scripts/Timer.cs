@@ -17,7 +17,7 @@ public class Timer : MonoBehaviour
     {
         DoTimer();
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             timerRunning = false;
         }
