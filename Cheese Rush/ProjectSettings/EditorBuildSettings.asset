@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: aee958ed005e88343897a72f3005bbdb
   - enabled: 1
+    path: Assets/Scenes/Game Select.unity
+    guid: 496c8587eea1f1248bf653f31bcbfcdf
+  - enabled: 1
     path: Assets/Scenes/Cheese Rush.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1

@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\EnablePauseScreen.cs" />
     <Compile Include="Assets\Scripts\CheeseSpawner.cs" />
     <Compile Include="Assets\Scripts\SceneChanger.cs" />
+    <Compile Include="Assets\Scripts\BackCube.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

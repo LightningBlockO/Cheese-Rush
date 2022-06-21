@@ -7,6 +7,6 @@ public class StartCheeseRush : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("Cheese Rush");
+        SceneManager.LoadScene("Game Select");
     }
 }
