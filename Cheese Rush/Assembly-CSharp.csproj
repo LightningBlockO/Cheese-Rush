@@ -68,17 +68,24 @@
     <Compile Include="Assets\Downloaded Assets\ModularFirstPersonController\FirstPersonController\FirstPersonController.cs" />
     <Compile Include="Assets\Scripts\RedCheeseSpawner.cs" />
     <Compile Include="Assets\Scripts\LevelTwoCheeseCollect.cs" />
+    <Compile Include="Assets\Scripts\two.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\Restart3.cs" />
     <Compile Include="Assets\Scripts\QuitCheeseRush.cs" />
+    <Compile Include="Assets\Scripts\Restart2.cs" />
+    <Compile Include="Assets\Scripts\Restart.cs" />
     <Compile Include="Assets\Scripts\BlueCheeseSpawner.cs" />
     <Compile Include="Assets\Scripts\EnablePauseScreen.cs" />
     <Compile Include="Assets\Scripts\CheeseSpawner.cs" />
-    <Compile Include="Assets\Scripts\SceneChanger.cs" />
-    <Compile Include="Assets\Scripts\Restart.cs" />
-    <Compile Include="Assets\Scripts\Restart2.cs" />
-    <Compile Include="Assets\Scripts\Restart3.cs" />
-    <Compile Include="Assets\Scripts\two.cs" />
     <Compile Include="Assets\Scripts\Restart4.cs" />
+    <Compile Include="Assets\Scripts\SceneChanger.cs" />
+    <Compile Include="Assets\Scripts\RetryLevelOne.cs" />
+    <Compile Include="Assets\Scripts\RetryLevelTwo.cs" />
+    <Compile Include="Assets\Scripts\RetryLevelThree.cs" />
+    <Compile Include="Assets\Scripts\RetryLevelFour.cs" />
+    <Compile Include="Assets\Scripts\LoadLevelThree.cs" />
+    <Compile Include="Assets\Scripts\LoadLevelFour.cs" />
+    <Compile Include="Assets\Scripts\InfiniteCheeseRush.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

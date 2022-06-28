@@ -35,7 +35,7 @@ public class two : MonoBehaviour
         }
         if (score >= 2000)
         {
-            SceneManager.LoadScene("Win Screen"); //new 2000 win texture to replace win screen
+            SceneManager.LoadScene("Win Screen Level 3");
         }
         myScore.text = score.ToString();
     }
