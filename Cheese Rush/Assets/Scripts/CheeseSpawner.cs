@@ -17,7 +17,7 @@ public class CheeseSpawner : MonoBehaviour
     {
         float randomX = Random.Range(-maxX,maxX);
         float randomZ = Random.Range(-maxZ,maxZ);
-        Vector3 randomSpawnPos = new Vector3(randomX, 1f, randomZ);
+        Vector3 randomSpawnPos = new Vector3(randomX, 1.35f, randomZ);
         Instantiate(cheese, randomSpawnPos, Quaternion.identity);
     }
 }
