@@ -172,7 +172,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 6ee0243f0fc8b3041a8ebeaf9596d42d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -282,7 +282,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1483634086}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e1b850d8d49ef304f89f2185018ecf3e, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -379,7 +379,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1711554082}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e1b850d8d49ef304f89f2185018ecf3e, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -476,7 +476,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914529574}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e1b850d8d49ef304f89f2185018ecf3e, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -667,7 +667,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118253648}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e1b850d8d49ef304f89f2185018ecf3e, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -957,6 +957,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1687404460655300337, guid: 189b0626a3d89b94f97a9c9ca4fb454e, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: e1b850d8d49ef304f89f2185018ecf3e, type: 2}
     - target: {fileID: 1687404460655300338, guid: 189b0626a3d89b94f97a9c9ca4fb454e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -999,6 +1003,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1687404460655300338, guid: 189b0626a3d89b94f97a9c9ca4fb454e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687404460655300340, guid: 189b0626a3d89b94f97a9c9ca4fb454e, type: 3}
+      propertyPath: walkSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687404460655300340, guid: 189b0626a3d89b94f97a9c9ca4fb454e, type: 3}
+      propertyPath: enableJump
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687404460655300340, guid: 189b0626a3d89b94f97a9c9ca4fb454e, type: 3}
+      propertyPath: sprintSpeed
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687404460655300340, guid: 189b0626a3d89b94f97a9c9ca4fb454e, type: 3}
+      propertyPath: enableSprint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687404460655300340, guid: 189b0626a3d89b94f97a9c9ca4fb454e, type: 3}
+      propertyPath: sprintDuration
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1687404460655300340, guid: 189b0626a3d89b94f97a9c9ca4fb454e, type: 3}
+      propertyPath: unlimitedSprint
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1687404460655300350, guid: 189b0626a3d89b94f97a9c9ca4fb454e, type: 3}

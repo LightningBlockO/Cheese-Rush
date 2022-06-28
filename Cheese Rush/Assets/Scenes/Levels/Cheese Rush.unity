@@ -226,7 +226,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86673843}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e1b850d8d49ef304f89f2185018ecf3e, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -755,7 +755,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 541269004}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e1b850d8d49ef304f89f2185018ecf3e, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -947,7 +947,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 684c5e3c99fc0a4448a3c8dc56da3668, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1632,6 +1632,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8b6d70dc3b816344b81be51a666fb222, type: 2}
+    - target: {fileID: 4459864850019384737, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: e1b850d8d49ef304f89f2185018ecf3e, type: 2}
     - target: {fileID: 4459864850019384738, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2341,7 +2345,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1562066225}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e1b850d8d49ef304f89f2185018ecf3e, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2509,7 +2513,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 33c6b9ce4dd2d0b429b9e23cd4f40f07, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3072,7 +3076,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2120828590}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: e1b850d8d49ef304f89f2185018ecf3e, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2

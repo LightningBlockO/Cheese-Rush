@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menus/Game Select.unity
     guid: 496c8587eea1f1248bf653f31bcbfcdf
   - enabled: 1
+    path: Assets/Scenes/Menus/Infinite Game Select.unity
+    guid: d4cc5510ffa4dad4497ce72306841163
+  - enabled: 1
     path: Assets/Scenes/Levels/Cheese Rush.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
